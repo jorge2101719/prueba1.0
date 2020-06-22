@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: darkmagenta;
+    vertical-align: middle;
+}
+
+footer p {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+
+i {
+    padding-right: 1rem;
+    padding-top: .5rem;
+}
+
+.letra {
+    font-family: 'Oswald', sans-serif;
+}
+
+.gruesa {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.ligera {
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+#M{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.titulo {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+p.interlinea {
+    line-height 400%;
+}
+
+a {
+    color: white;
+}
+
+.hero {
+    text-align: center;
+    text-underline-position: 50%;
+    font-family: 'Oswald', sans-serif;
+    background-image: url('../img/bg_hero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*color: #ffffff;*/
+    /*text-shadow: .125em .25em .125em #707070;*/
+    padding: 12rem 3rem;
+}
+
+
+li {
+    
+}
+
+.color-de-fondo {
+    background-color: darkmagenta;
+}
+
+.color-figura {
+    color: darkmagenta;
+}
+
+.linea-magdalena {
+    text-decoration-line: overline;
+}
+
+.linea-deco {
+    text-decoration-line: underline;
+}

@@ -5,6 +5,10 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+article {
+    width: 95.05%;
+}
+
 footer {
     background-color: darkmagenta;
     vertical-align: middle;
@@ -21,28 +25,26 @@ i {
     padding-top: .5rem;
 }
 
+/* defino tipo letra*/
 .oswald {
     font-family: 'Oswald', sans-serif;
 }
 
-.letra-gruesa {
-    font-family: 'Oswald', sans-serif;
-    font-weight: 700;
-}
-
-.letra-fina {
-    font-family: 'Oswald', sans-serif;
-    font-weight: 300;
-}
-
-.gruesa {
-    font-weight: 700;
-    font-size: 1.5rem;
+/* peso letra*/
+.super-ligera {
+    font-weight: 200;
 }
 
 .ligera {
     font-weight: 300;
-    font-size: 1.5rem;
+}
+
+.semigruesa {
+    font-weight: 600;
+}
+
+.gruesa {
+    font-weight: 700;
 }
 
 #M{
@@ -59,11 +61,11 @@ i {
 
 .titulo-carta {
     font-family: 'Oswald', sans-serif;
-    font-size: 23pt;
+    font-size: 1.4375rem;
 }
 
 .interlinea {
-    line-height: 2.5;
+    line-height: 2.4;
 }
 
 a {
@@ -85,11 +87,6 @@ a {
 
 .espacio-vertical {
     padding-top: 31%;
-}
-
-
-li {
-    
 }
 
 .color-de-fondo {

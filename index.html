@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
     <!--Enlace para las fuentes-->
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;1,400&family=Oswald:wght@200;400;600;700&display=swap" rel="stylesheet">
     
     <!--Enlace fontawesome 5.6.3-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
@@ -54,13 +54,15 @@
      <!--Seccion Hero-->
      <header class="hero text-light">
         <div class="pt-5">
-          <div>
-            <p class="display-1 pt-5">YO SOY</p>
+          <div class="espacio-vertical">
+            <p class="display-1 pt-5 font-weight-light">YO SOY</p>
           </div>
           <div>
-            <p class="display-1 font-weight-bold linea-magdalena">MAGDALENA</p>
+            <p class="display-1 linea-magdalena">MAGDALENA</p>
           </div>
         </div>
+        <br>
+        <br>
       </header>
 
 
@@ -68,26 +70,34 @@
 
     <!--Sobre mí-->
     <section id="about" class="container text-center my-5 px-5 py-5">
-      <h4 class="my-4 interlinea">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum facere enim adipisci sunt accusamus tempora?</h4>
+      <br>
+
+      <h4 class="interlinea">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus inventore corrupti aspernatur suscipit officiis nihil exercitationem voluptates assumenda unde velit.</h4>
+
+      <hr class="linea-corta text-black">
 
       <div class="row">
         <div class="col-md-6 text-left">
-          <p class="interlinea">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur repellendus cupiditate, velit eligendi id quisquam dolor dolorum nisi facere cumque! Nostrum consequatur laboriosam consequuntur accusamus corporis iste facere optio ratione recusandae possimus sequi debitis molestias illo id odit quo, totam ad animi officia fugit in omnis culpa quos ullam! Commodi.</p>
+          <article class="interlinea">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore dicta ipsum tempora magnam quis alias error repellendus quia, illum ipsam, iure impedit exercitationem consectetur id odit dolorum eius commodi. A veniam dolores impedit velit fugiat, odit adipisci sunt deserunt eveniet, eligendi iste sapiente, modi accusamus cumque deleniti! Enim sunt perspiciatis nemo quia inventore vero debitis necessitatibus consequatur consectetur reiciendis, quibusdam nihil ullam mollitia natus laudantium pariatur! Aliquid mollitia dolor soluta illo quibusdam consequatur, est recusandae modi voluptas? Assumenda ea ad, in cumque ullam nihil, nam nesciunt ut molestiae doloremque doloribus eum ipsum sunt corporis quae?</article>
         </div>
+
         <div class="col-md-6 text-left">
-          <p class="interlinea">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis inventore minima incidunt quibusdam expedita. Nam atque eius officiis amet odit expedita? Velit culpa magnam voluptatem exercitationem maxime eligendi, quia consectetur praesentium magni atque ut, ea facilis. Delectus impedit fugit porro architecto error in tempora, recusandae possimus repudiandae omnis aliquam accusantium.</p>
+          <article class="interlinea">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus quibusdam rem ea maiores dolorum eos quisquam tempore nisi! Laudantium sunt similique sint placeat quas maxime earum cumque alias, id corporis at vero consectetur nisi reprehenderit enim, eveniet quod non quasi nesciunt? Rem, deserunt inventore, reprehenderit nemo nihil sed ipsum rerum reiciendis numquam, eligendi commodi! Neque amet ad sint cupiditate inventore reprehenderit sapiente aliquid repellat dignissimos delectus aliquam quasi, ut, odio iste asperiores quisquam quo! Sunt placeat dolores quae, nulla ipsa at debitis ex assumenda tenetur eum quas doloribus necessitatibus, beatae alias voluptatum natus, maiores consequuntur.</article>
         </div>
       </div>
-    </section> <!-- Fin Sobre mí -->
+    </section>
+    <!-- Fin Sobre mí -->
 
 
 
 
     <!-- Experiencia -->
     <section id="experiencia" class="container">
-      <p class="display-4 titulo linea-deco">
+      <p class="display-4 titulo">
         MI EXPERIENCIA
       </p>
+
+      <hr class="linea-corta text-black">
 
       <div class="row">
         <div class="col-md-6 text-center">
@@ -103,15 +113,16 @@
         </div>
       </div>
     </section>
+    <!-- Fin Experiencia -->
 
 
       
 
     <!--Mis últimos trabajos-->
     <section id="work" class="container-fluid my-5 p-5 color-de-fondo">
-        <h2 class="display-4 text-center mb-3 text-light titulo linea-deco">MIS ÚLTIMOS TRABAJOS</h2>
+        <h2 class="display-4 text-center mb-3 text-light titulo">MIS ÚLTIMOS TRABAJOS</h2>
 
-        <br>
+        <hr id="ab" class="linea-corta">
 
         <!-- Primer grupo de tarjetas -->
 
@@ -120,7 +131,7 @@
           <div class="card">
             <img src="assets/img/meet_coffee.png" class="card-img-top" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">Meet&Coffe</h5>
+              <h5 class="card-title titulo-carta">Meet&Coffe</h5>
               <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias fugiat quisquam sint quibusdam cupiditate expedita.</p>
               <button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#meet_coffee">Ver más</button>
             </div>
@@ -130,7 +141,7 @@
           <div class="card">
             <img src="assets/img/iguana_page.png" class="card-img-top" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">Iguana Page</h5>
+              <h5 class="card-title titulo-carta">Iguana Page</h5>
               <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias fugiat quisquam sint quibusdam cupiditate expedita.</p>
               <button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#iguana">Ver más</button>
             </div>
@@ -139,7 +150,7 @@
           <div class="card">
             <img src="assets/img/suricata.png" class="card-img-top" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">Suricata</h5>
+              <h5 class="card-title titulo-carta">Suricata</h5>
               <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit sapiente corrupti animi quas, consequatur obcaecati.</p>
               <button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#suricata">Ver más</button>
             </div>
@@ -154,7 +165,7 @@
             <div class="card">
               <img src="assets/img/cuppon.png" class="card-img-top" alt="Card image cap">
               <div class="card-body">
-                <h5 class="card-title">Cuppon</h5>
+                <h5 class="card-title titulo-carta">Cuppon</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias fugiat quisquam sint quibusdam cupiditate expedita.</p>
                 <button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#cuppon">Ver más</button>
               </div>
@@ -164,7 +175,7 @@
             <div class="card">
               <img src="assets/img/ricomida.png" class="card-img-top" alt="Card image cap">
               <div class="card-body">
-                <h5 class="card-title">Ricomida</h5>
+                <h5 class="card-title titulo-carta">Ricomida</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias fugiat quisquam sint quibusdam cupiditate expedita.</p>
                 <button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#ricomida">Ver más</button>
               </div>
@@ -173,7 +184,7 @@
             <div class="card">
               <img src="assets/img/dmark.png" class="card-img-top" alt="Card image cap">
               <div class="card-body">
-                <h5 class="card-title">DMark</h5>
+                <h5 class="card-title titulo-carta">DMark</h5>
                 <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit sapiente corrupti animi quas, consequatur obcaecati.</p>
                 <button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#dmark">Ver más</button>
               </div>
@@ -334,7 +345,10 @@
 
     <!--Formulario-->
     <section id="contact" class="container my-5">
-      <h2 class="display-4 font-weight-bold text-center my-3 titulo linea-deco">CONTACTO</h2>
+      <h2 class="display-4 font-weight-bold text-center my-3 titulo">CONTACTO</h2>
+
+      <hr class="linea-corta">
+
       <p class="text-center pt-5">¿Quieres conocer de mi?</p>
 
       <div class="cui-embed" style="height: 400px; width: 100%;" data-cui-uid="GhsxdhKr" data-cui-mode="widget" data-cui-pill-button-color="#0000FF"></div><script src="https://public-assets.typeform.com/confab/embed.js" async></script>

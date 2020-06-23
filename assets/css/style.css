@@ -1,6 +1,8 @@
 body {
     margin: 0;
     padding: 0;
+    color: #373a3c;
+    font-family: 'Open Sans', sans-serif;
 }
 
 footer {
@@ -19,8 +21,18 @@ i {
     padding-top: .5rem;
 }
 
-.letra {
+.oswald {
     font-family: 'Oswald', sans-serif;
+}
+
+.letra-gruesa {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+}
+
+.letra-fina {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
 }
 
 .gruesa {
@@ -45,8 +57,13 @@ i {
     text-align: center;
 }
 
-p.interlinea {
-    line-height 400%;
+.titulo-carta {
+    font-family: 'Oswald', sans-serif;
+    font-size: 23pt;
+}
+
+.interlinea {
+    line-height: 2.5;
 }
 
 a {
@@ -62,7 +79,12 @@ a {
     background-size: cover;
     /*color: #ffffff;*/
     /*text-shadow: .125em .25em .125em #707070;*/
-    padding: 12rem 3rem;
+    /*padding: 3rem 3rem;*/
+    background-position: center;
+}
+
+.espacio-vertical {
+    padding-top: 31%;
 }
 
 
@@ -71,11 +93,11 @@ li {
 }
 
 .color-de-fondo {
-    background-color: darkmagenta;
+    background-color: #660066;
 }
 
 .color-figura {
-    color: darkmagenta;
+    color: #660066;
 }
 
 .linea-magdalena {
@@ -84,4 +106,14 @@ li {
 
 .linea-deco {
     text-decoration-line: underline;
+}
+
+.linea-corta {
+    border: 1px solid black;
+    width: 11%;
+    margin-bottom: 4%;
+}
+
+#ab {
+    border: 1px solid white;
 }
